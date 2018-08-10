@@ -1,0 +1,17 @@
+@import 'vars';
+
+.hero {
+    background: black url(../../assets/images/temp-hero-image.png) center / cover;
+    &::after {
+        content: "";
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background:  black;
+        opacity: .5;
+    }
+}
+
+body {
+    font-family: $family-default;
+}
